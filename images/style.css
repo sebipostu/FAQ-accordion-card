@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Outfit:wght@100&display=swap");
+
+html {
+  font-family: "Kumbh Sans", sans-serif;
+}
+:root {
+  --darkDesatBlue: hsl(238, 29%, 16%);
+  --veryDarkGreyBlue: hsl(237, 12%, 33%);
+  --darkGrayBlue: hsl(240, 6%, 50%);
+  --lightGrayBlue: hsl(240, 5%, 91%);
+  --softBlue: hsl(240, 73%, 65%);
+  --softRed: hsl(14, 88%, 65%);
+  --softViolet: hsl(273, 75%, 66%);
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(var(--softBlue), var(--softViolet));
+  margin: 0;
+  padding: 0;
+}
+
